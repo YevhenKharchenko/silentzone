@@ -1,24 +1,9 @@
-.interaction-atmosphere-bg-wrapper {
-  max-width: 375px;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: url(../img/interaction/interaction-bg-mob.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-
-  @include media(desktop) {
-    max-width: 1440px;
-    background-image: url(../img/interaction/interaction-bg-desk.jpg);
-  }
-}
-
-.interaction-section {
+.atmosphere-section {
   @include media(desktop) {
   }
 }
 
-.interaction-bg-wrapper {
+.atmosphere-bg-wrapper {
   padding-top: 64px;
   padding-bottom: 64px;
   max-width: 375px;
@@ -32,30 +17,29 @@
   }
 }
 
-.interaction-container {
+.atmosphere-container {
   @include media(desktop) {
   }
 }
 
-.interaction-content-wrapper {
+.atmosphere-content-wrapper {
   @include media(desktop) {
     max-width: 640px;
-    margin-left: auto;
   }
 }
 
-.interaction-title {
+.atmosphere-title {
   @include media(desktop) {
   }
 }
 
-.interaction-subtitle {
+.atmosphere-subtitle {
   @include media(desktop) {
     max-width: 470px;
   }
 }
 
-.interaction-text {
+.atmosphere-text {
   font-family: 'Cormorant Garamond', sans-serif;
   font-weight: 400;
   font-size: 18px;

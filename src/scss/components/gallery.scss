@@ -10,11 +10,16 @@
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
+  background-image: url(../img/gallery/gallery-bg-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
 
   @include media(desktop) {
     padding-top: 104px;
     padding-bottom: 104px;
     max-width: 1440px;
+    background-image: url(../img/gallery/gallery-bg-desk.jpg);
   }
 }
 
@@ -25,37 +30,24 @@
 
 .gallery-content-wrapper {
   @include media(desktop) {
-    display: flex;
-    align-items: start;
-    gap: 32px;
-  }
-}
-
-.gallery-text-wrapper {
-  @include media(desktop) {
-    max-width: 418px;
   }
 }
 
 .gallery-title {
-  @include media(desktop) {
-  }
-}
+  margin-bottom: 48px;
 
-.gallery-swiper-bg-wrapper {
   @include media(desktop) {
-    max-width: 862px;
+    margin-bottom: 64px;
   }
 }
 
 .gallery-swiper-container {
-  max-width: 303px;
+  max-width: 343px;
   margin-left: auto;
   margin-right: auto;
-  overflow: hidden;
 
   @include media(desktop) {
-    max-width: 862px;
+    max-width: 1440px;
   }
 }
 
@@ -65,63 +57,27 @@
 
 .gallery-swiper-wrapper {
   @include media(desktop) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
   }
 }
 
 .gallery-slide {
   width: 100%;
-  max-width: 303px;
+  max-width: 343px;
 
   @include media(desktop) {
+    max-width: 304px;
+
+    &:nth-child(2) {
+      max-width: 576px;
+    }
   }
 }
 
 .gallery-img {
-  @include media(desktop) {
-  }
-}
-
-.gallery-progress {
-  margin-top: 32px;
-  display: flex;
-  justify-content: center;
-
-  @include media(desktop) {
-  }
-}
-
-.gallery-progress-line {
-  background: #3ed6e0;
-  width: 100%;
-  max-width: 343px;
-  height: 2px;
-  cursor: pointer;
-  position: relative;
-
-  @include media(desktop) {
-    max-width: 862px;
-  }
-}
-
-.gallery-progress-dot {
-  background: #3ed6e0;
-  border-radius: 50px;
-  width: 78px;
-  height: 15px;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  transition: transform 0.2s ease;
-  cursor: grab;
-
-  @include media(desktop) {
-  }
-}
-
-.gallery-progress-dot:active {
-  cursor: grabbing;
-
   @include media(desktop) {
   }
 }

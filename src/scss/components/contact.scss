@@ -11,7 +11,7 @@
   margin-right: auto;
 
   @include media(desktop) {
-    padding-top: 104px;
+    padding-top: 80px;
     padding-bottom: 120px;
     max-width: 1440px;
   }
@@ -23,9 +23,9 @@
 }
 
 .contact-content-wrapper {
-  border: 1px solid #808080;
+  border: 1px solid #787566;
   border-radius: 40px;
-  padding: 74px 30px;
+  padding: 88px 16px;
   width: 100%;
   background-image: url(../img/contact/contact-bg-mob.png);
   background-repeat: no-repeat;
@@ -36,18 +36,22 @@
   align-items: center;
 
   @include media(desktop) {
-    padding: 72px 40px;
+    padding: 67px 40px;
     background-image: url(../img/contact/contact-bg-desk.png);
   }
 }
 
 .contact-title-wrapper {
+  width: 100%;
+
   @include media(desktop) {
+    max-width: 420px;
+    margin-bottom: 24px;
   }
 }
 
 .contact-subtitle {
-  text-align: center;
+  width: 100%;
 
   @include media(desktop) {
   }
@@ -57,11 +61,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 1.4;
-  letter-spacing: 0.1em;
+  font-family: 'Cormorant Garamond', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
   text-transform: uppercase;
   text-align: center;
   color: #f2f2f2;
@@ -69,6 +73,6 @@
   max-width: max-content;
 
   @include media(desktop) {
-    font-size: 42px;
+    font-size: 34px;
   }
 }

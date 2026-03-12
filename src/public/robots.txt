@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /private/
 Allow: /
 
-Sitemap: https://widezone.space/sitemap.xml
+Sitemap: https://silentzone.online/sitemap.xml
