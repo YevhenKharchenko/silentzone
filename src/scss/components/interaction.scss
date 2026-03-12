@@ -1,0 +1,126 @@
+.interaction-section {
+  @include media(desktop) {
+  }
+}
+
+.interaction-bg-wrapper {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 104px;
+    padding-bottom: 104px;
+    max-width: 1440px;
+  }
+}
+
+.interaction-container {
+  @include media(desktop) {
+    padding: 0 176px;
+  }
+}
+
+.interaction-content-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.interaction-title {
+  @include media(desktop) {
+  }
+}
+
+.interaction-subtitle {
+  @include media(desktop) {
+    max-width: 527px;
+  }
+}
+
+.interaction-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #f2f2f2;
+  margin-bottom: 40px;
+
+  @include media(desktop) {
+    font-size: 18px;
+  }
+}
+
+.interaction-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+  }
+}
+
+.interaction-list-item {
+  border-radius: 36px;
+  padding: 24px;
+  width: 100%;
+  max-width: 343px;
+  min-height: 306px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  &:nth-child(1) {
+    background-image: url(../img/interaction/interaction-img1-mob.png);
+  }
+
+  &:nth-child(2) {
+    background-image: url(../img/interaction/interaction-img2-mob.png);
+  }
+
+  &:nth-child(3) {
+    background-image: url(../img/interaction/interaction-img3-mob.png);
+  }
+
+  &:nth-child(4) {
+    background-image: url(../img/interaction/interaction-img4-mob.png);
+  }
+
+  @include media(desktop) {
+    max-width: 248px;
+
+    &:nth-child(1) {
+      background-image: url(../img/interaction/interaction-img1-desk.png);
+    }
+
+    &:nth-child(2) {
+      background-image: url(../img/interaction/interaction-img2-desk.png);
+    }
+
+    &:nth-child(3) {
+      background-image: url(../img/interaction/interaction-img3-desk.png);
+    }
+
+    &:nth-child(4) {
+      background-image: url(../img/interaction/interaction-img4-desk.png);
+    }
+  }
+}
+
+.interaction-item-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #f2f2f2;
+  max-width: 191px;
+
+  @include media(desktop) {
+    font-size: 18px;
+  }
+}

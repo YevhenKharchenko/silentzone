@@ -1,0 +1,112 @@
+.experience-section {
+  @include media(desktop) {
+  }
+}
+
+.experience-bg-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 375px;
+
+  @include media(desktop) {
+    max-width: 1440px;
+  }
+}
+
+.experience-container {
+  @include media(desktop) {
+    padding: 0 176px;
+  }
+}
+
+.experience-top-content-wrapper {
+  padding-top: 80px;
+  padding-bottom: 64px;
+
+  @include media(desktop) {
+    padding-top: 120px;
+    padding-bottom: 104px;
+  }
+}
+
+.experience-title-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.experience-title {
+  @include media(desktop) {
+  }
+}
+
+.experience-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.4;
+  text-align: justify;
+  color: #f2f2f2;
+
+  @include media(desktop) {
+    font-size: 28px;
+    text-indent: 400px;
+  }
+}
+
+.experience-orange-span {
+  color: #ff9e3d;
+}
+
+.experience-turquoise-span {
+  color: #3ed6e0;
+}
+
+.experience-bottom-content-wrapper {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  @include media(desktop) {
+    padding-top: 104px;
+    padding-bottom: 104px;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.experience-bottom-text-wrapper {
+  @include media(desktop) {
+    max-width: 528px;
+  }
+}
+
+.experience-bottom-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #f2f2f2;
+
+  @include media(desktop) {
+    font-size: 18px;
+  }
+}
+
+.experience-bottom-top-text {
+  margin-bottom: 8px;
+
+  @include media(desktop) {
+  }
+}
+
+.experience-img {
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    min-width: 528px;
+    margin: 0;
+  }
+}

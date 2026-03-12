@@ -1,0 +1,93 @@
+:root {
+  font-family: 'Cormorant Garamond', sans-serif;
+  color: $_main_color;
+  background: $_main_bg_color;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.container {
+  width: 100%;
+  max-width: 375px;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    max-width: 1440px;
+    padding-right: 64px;
+    padding-left: 64px;
+  }
+}
+
+.section-title-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 16px;
+
+  @include media(desktop) {
+  }
+}
+
+.section-title {
+  font-family: 'Cormorant Garamond', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #bba27a;
+
+  @include media(desktop) {
+    font-size: 42px;
+  }
+}
+
+.section-subtitle {
+  border: 2px solid #bba27a;
+  padding-bottom: 16px;
+  font-family: 'Cormorant Garamond', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.16;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #dbe4e1;
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+    font-size: 24px;
+  }
+}
+
+.section {
+  scroll-margin-top: 52px;
+
+  @include media(desktop) {
+    scroll-margin-top: 62px;
+  }
+}

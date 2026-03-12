@@ -1,0 +1,74 @@
+.contact-section {
+  @include media(desktop) {
+  }
+}
+
+.contact-bg-wrapper {
+  padding-top: 64px;
+  padding-bottom: 80px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 104px;
+    padding-bottom: 120px;
+    max-width: 1440px;
+  }
+}
+
+.contact-container {
+  @include media(desktop) {
+  }
+}
+
+.contact-content-wrapper {
+  border: 1px solid #808080;
+  border-radius: 40px;
+  padding: 74px 30px;
+  width: 100%;
+  background-image: url(../img/contact/contact-bg-mob.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include media(desktop) {
+    padding: 72px 40px;
+    background-image: url(../img/contact/contact-bg-desk.png);
+  }
+}
+
+.contact-title-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.contact-subtitle {
+  text-align: center;
+
+  @include media(desktop) {
+  }
+}
+
+.contact-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.4;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #f2f2f2;
+  word-break: break-all;
+  max-width: max-content;
+
+  @include media(desktop) {
+    font-size: 42px;
+  }
+}
