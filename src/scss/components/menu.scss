@@ -1,5 +1,5 @@
 .context-menu {
-  background: #000;
+  background: #070a0d;
   display: none;
   width: 100%;
   height: 100%;
@@ -13,13 +13,13 @@
 }
 
 .context-container {
-  padding: 0 32px;
+  padding: 0 40px;
 }
 
 .context-nav {
   display: flex;
   align-items: center;
-  margin-top: 84px;
+  margin-top: 92px;
 }
 
 .context-nav-list {
@@ -30,25 +30,25 @@
 }
 
 .context-list-link {
-  border: 1px solid transparent;
-  border-radius: 50px;
+  border-bottom: 1px solid transparent;
+  padding: 8px 0;
+  font-family: 'Cormorant Garamond', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.16;
+  text-transform: uppercase;
+  text-align: center;
+  color: #bbb;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 8px 12px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.4;
-  text-transform: capitalize;
-  text-align: center;
-  color: #d1d1d1;
   transition:
     color 0.3s ease-in-out,
     border-color 0.3s ease-in-out;
 
   &:active {
-    border-color: #d1d1d1;
+    color: #bba27a;
+    border-color: #bba27a;
   }
 }
 
